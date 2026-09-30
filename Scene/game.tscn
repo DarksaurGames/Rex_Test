@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bprnlremwsgus"]
+
+[ext_resource type="PackedScene" uid="uid://ciftt5ogdymna" path="res://Entities/player.tscn" id="1_mhtsl"]
+
+[sub_resource type="TileSet" id="TileSet_gedjb"]
+
+[node name="Game" type="Node2D" unique_id=934573259]
+
+[node name="Player" parent="." unique_id=616065819 instance=ExtResource("1_mhtsl")]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=268129339]
+tile_set = SubResource("TileSet_gedjb")
